@@ -3,6 +3,7 @@ mexpenses = int(input("Enter your monthly expenses: "))
 
 savings = mincome - mexpenses
 ProjectedSavings = savings * 12 + (savings * 12 * 0.05)
+ProjectedSavings = int(ProjectedSavings)
 
 print(f"Enter your monthly income: {mincome}")
 print(f"Enter your total monthly expenses: {mexpenses}")
