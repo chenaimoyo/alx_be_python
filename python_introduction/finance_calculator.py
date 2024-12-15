@@ -1,7 +1,7 @@
 mincome = int(input("Enter your monthly income: "))
 mexpenses = int(input("Enter your monthly expenses: "))
 
-savings = mincome - mexpenses
+savings =float(mincome) - float(mexpenses)
 ProjectedSavings = savings * 12 + (savings * 12 * 0.05)
 ProjectedSavings = int(ProjectedSavings)
 
